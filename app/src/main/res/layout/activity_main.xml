@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.android.mysecrets.MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:text="My secrets"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <EditText
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@android:color/background_light" />
+</LinearLayout>
